@@ -21,9 +21,9 @@ print(result)
 
 
 # Whoa. That Sucker's Huge
-n = 500000
+# n = 500000
 oddnums = 0
-for i in range(1, n+1, 2):
+for i in range(0, 500001, 2):
     oddnums += i
 print(oddnums)
 
@@ -34,9 +34,9 @@ for n in range(2018, 0, -4):
 
 
 # Flexible Counter
-lowNum = 5
-highNum = 50
-mult = 4
-for i in range(lowNum, highNum):
+lowNum = 2
+highNum = 9
+mult = 3
+for i in range(lowNum, highNum+1):
     if i % mult == 0:
         print(i)
